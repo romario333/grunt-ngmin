@@ -1,7 +1,7 @@
 {
-  "name": "grunt-ngmin",
+  "name": "grunt-ngmin-with-comments",
   "version": "0.0.3",
-  "description": "Grunt task for minifying AngularJS projects",
+  "description": "Grunt task for minifying AngularJS projects (modified to not remove comments)",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt test"
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/btford/grunt-ngmin"
+    "url": "https://github.com/romario333/grunt-ngmin"
   },
   "keywords": [
     "grunt",
@@ -27,6 +27,6 @@
   "author": "Brian Ford",
   "license": "BSD",
   "dependencies": {
-    "ngmin": "~0.4.0"
+    "ngmin-with-comments": "~0.4.0"
   }
 }

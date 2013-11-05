@@ -1,6 +1,6 @@
 'use strict';
 
-var ngmin = require('ngmin');
+var ngmin = require('ngmin-with-comments');
 
 module.exports = function (grunt) {
 
